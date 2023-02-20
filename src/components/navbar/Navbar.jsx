@@ -6,7 +6,7 @@ import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 const NavbarMenu = () => (
   <ul className={cl.list}>
     <li className={cl.item}>
-      <a href="#Home" className={cl.link}>
+      <a href="#home" className={cl.link}>
         Home
       </a>
     </li>

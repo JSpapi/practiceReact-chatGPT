@@ -37,7 +37,7 @@
   padding: 3.5rem;
 
   @media (max-width: 550px) {
-    padding: 1.5em;
+    padding: 1.5rem;
   }
 }
 
@@ -49,25 +49,6 @@
   flex-wrap: wrap;
   padding: 2rem 0;
 
-  h2 {
-    font-weight: 800;
-    font-size: 34px;
-    line-height: 45px;
-    max-width: 470px;
-
-    @media (max-width: 550px) {
-      font-size: 24px;
-      line-height: 35px;
-    }
-  }
-
-  p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 30px;
-    color: var(--color-subtext);
-  }
-
   @media (max-width: 650px) {
     padding: 1rem 0;
   }
@@ -75,6 +56,16 @@
 
 .feature__header {
   padding-bottom: 2rem;
+
+  article {
+    p {
+      max-width: 710px !important;
+    }
+
+    @media (max-width: 800px) {
+      flex-direction: column;
+    }
+  }
 
   @media (max-width: 650px) {
     padding-bottom: 1rem;
@@ -98,5 +89,6 @@
 
   @media (max-width: 650px) {
     padding-top: 1rem;
+    gap: 20px;
   }
 }

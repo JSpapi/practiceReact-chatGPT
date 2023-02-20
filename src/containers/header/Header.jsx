@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container">
         <div className={cl.content}>
           <div className={cl.info}>
-            <h1 className={[cl.title, "gradinet__text"].join(" ")}>
+            <h1 className={[cl.title, "heading"].join(" ")}>
               Let's Build Something amazing with GPT-3 OpenAI
             </h1>
             <p className={cl.text}>

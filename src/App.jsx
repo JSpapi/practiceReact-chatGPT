@@ -18,6 +18,7 @@ function App() {
       </div>
       <Brand />
       <WhatGPT3 />
+      <Features/>
     </div>
   );
 }
