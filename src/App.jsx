@@ -7,7 +7,7 @@ import {
   Blog,
   Footer,
 } from "./containers";
-import { Brand, Navbar, CTA } from "./components";
+import { Brand, Navbar, GetStarted } from "./components";
 
 function App() {
   return (
@@ -19,7 +19,8 @@ function App() {
       <Brand />
       <WhatGPT3 />
       <Features />
-      <Possibilities/>
+      <Possibilities />
+      <GetStarted />
     </div>
   );
 }
