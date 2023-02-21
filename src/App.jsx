@@ -21,6 +21,7 @@ function App() {
       <Features />
       <Possibilities />
       <GetStarted />
+      <Blog />
     </div>
   );
 }
