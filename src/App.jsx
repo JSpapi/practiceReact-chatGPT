@@ -22,6 +22,7 @@ function App() {
       <Possibilities />
       <GetStarted />
       <Blog />
+      <Footer/>
     </div>
   );
 }

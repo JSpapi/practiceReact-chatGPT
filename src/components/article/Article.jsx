@@ -2,7 +2,6 @@ import React from "react";
 import cl from "./Article.module.scss";
 const Article = ({ data }) => {
   const { img, title } = data;
-  console.log(data);
   const date = new Date();
   const months = [
     "January",
