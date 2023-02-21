@@ -1,6 +1,7 @@
 import React from "react";
 import cl from "./Footer.module.scss";
 import logo from "../../assets/logo.svg";
+// !footer sicial links component
 import { FooterList } from "../../components";
 
 const Footer = () => {
